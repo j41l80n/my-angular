@@ -19,9 +19,8 @@
 ### Angular
 	sudo npm install -g @angular/cli
 	sudo npm update -g	
-
-	<!-- sudo npm install npm@latest -g <!-- para remover erros --> -->
 	
-	sudo ng new my-app <!-- --skip-install -->
+	sudo chown -R $USER:$(id -gn $USER) /home/jailson/.config 
+	sudo ng new my-app		
 	cd my-app
-sudo chown -R $(whoami) /home/jailson/Documents/my-angular/my-app/node_modules
+	ng serve -o (ou --open para abrir o navegador assim que o servidor estiver pronto)
