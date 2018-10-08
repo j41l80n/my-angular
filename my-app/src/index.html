@@ -5,6 +5,20 @@
   <title>Hello World</title>
   <base href="/">
 
+  <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAd0OiUHhvaU5SSpSII2GuDP55Exvx2dPY",
+      authDomain: "ic-sprint.firebaseapp.com",
+      databaseURL: "https://ic-sprint.firebaseio.com",
+      projectId: "ic-sprint",
+      storageBucket: "ic-sprint.appspot.com",
+      messagingSenderId: "9955807748"
+    };
+    firebase.initializeApp(config);
+  </script>
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
