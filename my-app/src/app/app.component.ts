@@ -8,6 +8,7 @@ import { AngularFireDatabase } from 'angularfire2/database';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   ic_sprint: any[];
   constructor(db: AngularFireDatabase) {
