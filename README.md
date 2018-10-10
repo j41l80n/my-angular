@@ -24,3 +24,6 @@
 	sudo ng new my-app		
 	cd my-app
 	ng serve -o (ou --open para abrir o navegador assim que o servidor estiver pronto)
+
+ambiente de desenvolvimento -> 1.27.2
+sistema operacional -> Ubuntu 18.04.1 LTS bionic
