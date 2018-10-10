@@ -10,7 +10,9 @@ import { AngularFireDatabase } from 'angularfire2/database';
 })
 
 export class AppComponent {
+  title = 'Laboratórios SPRINT';
   ic_sprint: any[];
+
   constructor(db: AngularFireDatabase) {
     db.list('/bolsistas').valueChanges()
       .subscribe(ic_sprint=>{
@@ -18,6 +20,4 @@ export class AppComponent {
         console.log(ic_sprint);
     });
   }
-
-  title = 'Laboratórios SPRINT';
 }
