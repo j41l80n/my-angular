@@ -29,3 +29,4 @@ ambiente de desenvolvimento -> 1.27.2
 sistema operacional -> Ubuntu 18.04.1 LTS bionic
 
 banco firebase -> npm install angularfire --save
+instalando npm install bootstrap font-awesome
