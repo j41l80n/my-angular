@@ -30,3 +30,15 @@ sistema operacional -> Ubuntu 18.04.1 LTS bionic
 
 banco firebase -> npm install angularfire --save
 instalando npm install bootstrap font-awesome
+
+mudanca no arquivo pakage.json
+"start": "ng serve --proxy-config proxy-config.json",
+
+criacao arquivo
+proxy-config.json
+
+criando componente login
+ng g c login
+
+criando componente home
+ng g c home
