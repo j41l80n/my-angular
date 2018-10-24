@@ -15,12 +15,14 @@ import { HttpModule } from '@angula/http';
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+
   ],
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
+    HttpModule.fotRoot();
   ],
   providers: [],
   bootstrap: [AppComponent]
